@@ -8,7 +8,7 @@
  html
  {
     font-size: 62.5%;
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
     font-size: 1.2rem;
  }
  .header
@@ -60,11 +60,18 @@
 }
 p
 {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     text-align: justify;
     
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     
+}
+/* Esta sera el area de los  identificadores del header */
+#inicio
+{
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
